@@ -1,6 +1,6 @@
 FROM debian:9.2
 
-LABEL maintainer "opsxcq@strm.sh"
+LABEL maintainer "jb@checkmarx.com"
 
 RUN apt-get update && \
     apt-get upgrade -y && \
